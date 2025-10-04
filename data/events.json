@@ -31,7 +31,7 @@
 "stock": 30000,
 "soldOut": false,
 "popularity": 95,
-"images": ["/imagenes/02.jpg", "/imagenes/08.jpg", "/imagenes/09.jpg", "/imagenes/10.jpg", "/imagenes/11.jpg"],
+"images": ["imagenes/02.jpg", "imagenes/08.jpg", "imagenes/09.jpg", "imagenes/10.jpg", "imagenes/11.jpg"],
 "policies": { "age": "Todas las edades", "refund": "No reembolsable" },
 "description": "Vive la emoción del fútbol peruano con este enfrentamiento épico entre dos de los equipos más grandes del país.",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124852.81488339943!2d-77.17703695664062!3d-12.067553399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8eb498672dd%3A0xefa377174834b5d7!2sEstadio%20Nacional%20del%20Per%C3%BA!5e0!3m2!1ses-419!2spe!4v1759587436663!5m2!1ses-419!2spe" }
@@ -49,7 +49,7 @@
 "stock": 400,
 "soldOut": false,
 "popularity": 78,
-"images": ["/imagenes/03.jpg", "/imagenes/12.jpg"],
+"images": ["imagenes/03.jpg", "imagenes/12.jpg"],
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9705725389886!2d-77.03499959999999!3d-12.045545700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ca3c54dd11%3A0x40b0447dcf24a5c8!2sTeatro%20Municipal%20de%20Lima!5e0!3m2!1ses-419!2spe!4v1759587668846!5m2!1ses-419!2spe" }
 },
 {
@@ -65,7 +65,7 @@
 "stock": 30000,
 "soldOut": false,
 "popularity": 95,
-"images": ["/imagenes/04.jpg", "/imagenes/13.jpg"],
+"images": ["imagenes/04.jpg", "imagenes/13.jpg"],
 "policies": { "age": "+18", "refund": "No reembolsable" },
 "description": "Un festival de música urbana con artistas internacionales y nacionales.",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.0596512136503!2d-77.03252792610341!3d-12.108068943042861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c814d256b34b%3A0xb4b89a218147c8d3!2sTeatro%20Canout!5e0!3m2!1ses-419!2spe!4v1759587774082!5m2!1ses-419!2spe" }
@@ -83,7 +83,7 @@
 "stock": 30000,
 "soldOut": true,
 "popularity": 95,
-"images": ["/imagenes/15.jpg"],
+"images": ["imagenes/15.jpg"],
 "policies": { "age": "Todas las edades", "refund": "No reembolsable" },
 "description": "Un festival de música urbana con artistas internacionales y nacionales.",
 "map": { "embed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.2524261131553!2d-77.0815841261038!3d-12.094863942795781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7e0612acf1b%3A0x1d842aaaf2133bfc!2sCircuito%20de%20Playas!5e0!3m2!1ses-419!2spe!4v1759591144300!5m2!1ses-419!2spe" }
@@ -101,7 +101,7 @@
 "stock": 30000,
 "soldOut": false,
 "popularity": 95,
-"images": ["/imagenes/14.jpg"],
+"images": ["imagenes/14.jpg"],
 "policies": { "age": "+18", "refund": "No reembolsable" },
 "description": "Un festival de música urbana con artistas internacionales y nacionales.",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.9672400028894!2d-77.06932181114503!3d-11.976768699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce48482f3757%3A0x8b8367d90e55fda8!2sHuaralino!5e0!3m2!1ses-419!2spe!4v1759592313188!5m2!1ses-419!2spe" }
@@ -119,7 +119,7 @@
 "stock": 30000,
 "soldOut": false,
 "popularity": 95,
-"images": ["/imagenes/16.jpg"],
+"images": ["imagenes/16.jpg"],
 "policies": { "age": "+18", "refund": "No reembolsable" },
 "description": "Un festival de música urbana con artistas internacionales y nacionales.",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.370982822242!2d-77.00309630000001!3d-12.086735800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7d374af6eef%3A0xdd62873e6d53e56b!2sGran%20Teatro%20Nacional%20del%20Per%C3%BA!5e0!3m2!1ses-419!2spe!4v1759592384019!5m2!1ses-419!2spe" }
@@ -137,7 +137,7 @@
 "stock": 30000,
 "soldOut": false,
 "popularity": 95,
-"images": ["/imagenes/17.jpg"],
+"images": ["imagenes/17.jpg"],
 "policies": { "age": "+18", "refund": "No reembolsable" },
 "description": "Un festival de música urbana con artistas internacionales y nacionales.",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.472570648468!2d-77.03752492610417!3d-12.079766742513705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f360ca71d7%3A0x9170b7f308c5bb75!2sCocos!5e0!3m2!1ses-419!2spe!4v1759592503300!5m2!1ses-419!2spe" }
@@ -146,3 +146,4 @@
 
 
 ]
+
