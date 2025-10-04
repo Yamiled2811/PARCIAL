@@ -13,7 +13,7 @@
 "stock": 850,
 "soldOut": true,
 "popularity": 87,
-"images": ["imagenes/01.jpg", "/imagenes/05.jpg", "/imagenes/06.jpg","/imagenes/07.jpg"],
+"images": ["imagenes/01.jpg", "imagenes/05.jpg", "imagenes/06.jpg","imagenes/07.jpg"],
 "policies": { "age": "Todas las edades", "refund": "Reembolso hasta 48h antes" },
 "description": "Un repertorio de música rock con temas memorables del ayer .",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.784794158519!2d-77.01536242610136!3d-12.195041544676862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b760622fde51%3A0x8d1ea16dde93ada4!2sEstadio%20San%20Marcos%20de%20chorrillos!5e0!3m2!1ses-419!2spe!4v1759585391926!5m2!1ses-419!2spe", "lat": -12.195041544676862, "lng": -77.01536242610136 }
@@ -142,6 +142,7 @@
 "description": "Un festival de música urbana con artistas internacionales y nacionales.",
 "map": { "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.472570648468!2d-77.03752492610417!3d-12.079766742513705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f360ca71d7%3A0x9170b7f308c5bb75!2sCocos!5e0!3m2!1ses-419!2spe!4v1759592503300!5m2!1ses-419!2spe" }
 }
+
 
 
 ]
