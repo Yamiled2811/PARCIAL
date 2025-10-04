@@ -1,0 +1,70 @@
+
+[
+{
+"id": "evt-0002",
+"title": "Concierto de Green Day",
+"category": "musica",
+"artists": ["Orquesta Filarmónica Nacional"],
+"city": "Lima",
+"venue": "Teatro Mayor",
+"datetime": "2025-12-05T19:30:00-05:00",
+"priceFrom": 120.00,
+"currency": "PEN",
+"stock": 850,
+"soldOut": false,
+"popularity": 87,
+"images": "https://github.com/Yamiled2811/EXAMEN-PARCIAL/blob/main/imagenes/01.jpg",
+"policies": { "age": "Todas las edades", "refund": "Reembolso hasta 48h antes" },
+"description": "Un repertorio de música clásica con obras de Beethoven y Mozart."
+},
+{
+"id": "evt-0003",
+"title": "Clásico peruano",
+"category": "Fútbol",
+"artists": ["Rapero X", "DJ Latina", "Banda Flow"],
+"city": "Lima",
+"venue": "Estadio Nacional",
+"datetime": "2025-11-20T18:00:00-05:00",
+"priceFrom": 80.00,
+"currency": "PEN",
+"stock": 30000,
+"soldOut": false,
+"popularity": 95,
+"images":"https://github.com/Yamiled2811/EXAMEN-PARCIAL/blob/main/imagenes/02.jpg",
+"policies": { "age": "18+", "refund": "No reembolsable" },
+"description": "Un festival de música urbana con artistas internacionales y nacionales."
+},
+{
+"id": "evt-0004",
+"title": "Concierto de Sinfonia",
+"category": "festival",
+"artists": ["Comediante A", "Comediante B"],
+"city": "Lima",
+"venue": "Teatro Vorterix",
+"datetime": "2025-10-18T21:00:00-03:00",
+"priceFrom": 45.00,
+"currency": "PEN",
+"stock": 400,
+"soldOut": false,
+"popularity": 78,
+"images": "https://github.com/Yamiled2811/EXAMEN-PARCIAL/blob/main/imagenes/03.jpg"
+},
+{
+"id": "evt-0005",
+"title": "Secretos públicos",
+"category": "futbol",
+"artists": ["Rapero X", "DJ Latina", "Banda Flow"],
+"city": "Lima",
+"venue": "Estadio Nacional",
+"datetime": "2025-11-20T18:00:00-05:00",
+"priceFrom": 80.00,
+"currency": "PEN",
+"stock": 30000,
+"soldOut": false,
+"popularity": 95,
+"images": "https://github.com/Yamiled2811/EXAMEN-PARCIAL/blob/main/imagenes/04.jpg",
+"policies": { "age": "18+", "refund": "No reembolsable" },
+"description": "Un festival de música urbana con artistas internacionales y nacionales."
+}
+
+]

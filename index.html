@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cartelera — MVP</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-row">
+        <div class="header-left">
+          <h1 class="brand">🎟️ <span>EVENTOS</span></h1>
+        </div>
+        <div class="header-right">
+          <div class="controls">
+            <label for="search" class="visually-hidden">Buscar eventos</label>
+            <input id="search" type="search" placeholder="Buscar por título, artista o ciudad" />
+            <button id="toggleView" aria-pressed="false" title="Cambiar vista">Ver: <span id="viewLabel">Grid</span></button>
+          </div>
+          <div class="header-actions">
+            <a class="btn header-cta" href="#/buy">Comprar entradas</a>
+            <button id="cartBtn" title="Ver carrito" class="cart-btn">🛒 <span class="cart-label">Carrito</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="container header-filters">
+        <div id="filters" class="filters">
+  <select id="filterCategory">
+    <option value="">Todas las categorías</option>
+    <option value="musica">Música</option>
+    <option value="Concierto">Concierto</option>
+    <option value="festival">Festival</option>
+    <option value="standup">Stand-up</option>
+    <option value="otros">Otros</option>
+  </select>
+
+  <select id="filterCity">
+    <option value="">Todas las ciudades</option>
+  </select>
+
+  <label>Fecha min: <input type="date" id="minDate"></label>
+  <label>Fecha max: <input type="date" id="maxDate"></label>
+  <label>Precio min: <input type="number" id="minPrice" min="0"></label>
+  <label>Precio max: <input type="number" id="maxPrice" min="0"></label>
+
+  <select id="filterState">
+    <option value="">Todos</option>
+    <option value="available">Disponibles</option>
+    <option value="soldout">Sold out</option>
+  </select>
+
+  <select id="sortOrder">
+    <option value="date_asc">Fecha ↑</option>
+    <option value="date_desc">Fecha ↓</option>
+    <option value="price_asc">Precio ↑</option>
+    <option value="price_desc">Precio ↓</option>
+    <option value="pop_desc">Popularidad</option>
+  </select>
+ </div>
+</div>
+</header>
+
+    <main class="container" role="main">
+      <section id="catalogSection">
+        <section id="catalogSectionInner">
+          <div id="catalog" class="grid" aria-live="polite"></div>
+
+          <div id="noResults" class="empty" hidden>
+            <p>No hay resultados que coincidan.</p>
+            <button id="clearFilters">Limpiar filtros</button>
+          </div>
+
+          <nav id="pagination" class="pagination" aria-label="Paginación" hidden>
+            <button id="prevPage">« Anterior</button>
+            <span id="pageInfo">1</span>
+            <button id="nextPage">Siguiente »</button>
+          </nav>
+        </section>
+      </section>
+    </main>
+    <section id="detailView" class="detail-view" hidden aria-hidden="true"></section>
+<section id="cartView" class="cart-view" hidden aria-hidden="true"></section>
+    <footer class="site-footer container" role="contentinfo">
+      <small></small>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
